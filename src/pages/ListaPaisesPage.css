@@ -1,0 +1,36 @@
+ion-header ion-toolbar ion-title {
+    text-align: center;
+  }
+
+.ion-content {
+    padding: 0;
+}
+
+.center-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.country-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  border-bottom: 1px solid #ccc;
+}
+
+.country-name {
+  flex: 3;
+  font-size: 18px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.country-flag img {
+  max-width: 100%;
+  height: auto;
+  max-height: 50px;
+  margin-left: 20px;
+}
